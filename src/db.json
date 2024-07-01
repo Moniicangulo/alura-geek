@@ -1,0 +1,46 @@
+{
+    "products": [
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 1
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 2
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 3
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 4
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 5
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 6
+      },
+      {
+        "name": "Peluche Hello Kitty",
+        "price": "399",
+        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
+        "id": 7
+      }
+    ]
+  }
