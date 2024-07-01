@@ -1,0 +1,16 @@
+.header {
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  font-family: "Montserrat Alternates", sans-serif;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  & h1 {
+    font-weight: 400;
+  }
+  & img {
+    width: 60px;
+  }
+}
