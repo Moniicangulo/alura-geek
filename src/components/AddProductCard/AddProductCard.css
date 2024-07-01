@@ -1,0 +1,47 @@
+.AddProductCard {
+  align-items: center;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 443px;
+}
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 1rem;
+}
+.input__container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 0;
+
+  & input {
+    background-color: var(--input--background);
+    border-radius: 0.5rem;
+    border: none;
+    height: 56px;
+    outline: none;
+    padding: 1rem;
+    width: 320px;
+    &:focus {
+      border: 1px solid var(--secondary-color);
+    }
+  }
+}
+.add__button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--light--background);
+  font-weight: 600;
+  height: 44px;
+  outline: none;
+  width: 130px;
+}
