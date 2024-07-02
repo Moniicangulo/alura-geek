@@ -1,46 +1,40 @@
 {
-    "products": [
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 1
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 2
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 3
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 4
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 5
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 6
-      },
-      {
-        "name": "Peluche Hello Kitty",
-        "price": "399",
-        "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg",
-        "id": 7
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": "7",
+      "name": "Peluche Hello Kitty",
+      "price": "399",
+      "imagen": "https://www.kittyshop.cl/wp-content/uploads/2022/05/975133.jpeg"
+    },
+    {
+      "id": "624",
+      "name": "Llavero Hello kitty 2",
+      "price": 90,
+      "imagen": "https://resources.claroshop.com/medios-plazavip/t1/1699189919BMOA131jpg?scale=500&qlty=75"
+    },
+    {
+      "id": "430",
+      "name": "Cama Hello Kitty",
+      "price": 2999,
+      "imagen": "https://cdn.trendhunterstatic.com/thumbs/hello-kitty-products.jpeg?auto=webp"
+    },
+    {
+      "id": "845",
+      "name": "Motoneta Hello Kirry",
+      "price": 5799,
+      "imagen": "https://www.okchicas.com/wp-content/uploads/2015/09/productos-de-Hello-Kitty-2-730x584.jpeg"
+    },
+    {
+      "id": "624",
+      "name": "Tetera Hello Kitty",
+      "price": 399,
+      "imagen": "https://i.pinimg.com/originals/ef/a1/07/efa107505fece615a0b8dc4bd5f334f5.jpg"
+    },
+    {
+      "id": "320",
+      "name": "Tazas Hello Kitty",
+      "price": 624,
+      "imagen": "https://i.pinimg.com/originals/49/b7/2c/49b72c79cf84cc69f7f3423cf591425a.jpg"
+    }
+  ]
+}
