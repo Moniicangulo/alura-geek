@@ -6,22 +6,26 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  height: fit-content;
   padding: 2rem;
+  width: fit-content;
   max-width: 443px;
+  text-align: center;
 }
 .form {
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding: 0 1rem;
+  
+  width: 100%;
 }
 .input__container {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 0.75rem 0;
-
+  /* padding: 0.75rem 0; */
+  width: 100%;
   & input {
     background-color: var(--input--background);
     border-radius: 0.5rem;
@@ -29,10 +33,16 @@
     height: 56px;
     outline: none;
     padding: 1rem;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     &:focus {
       border: 1px solid var(--secondary-color);
     }
+  }
+
+  & .error{
+    font-size: 0.75rem;
+    color: var(--primary-color);
   }
 }
 .add__button {
@@ -44,4 +54,22 @@
   height: 44px;
   outline: none;
   width: 130px;
+
+  &:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+  }
+}
+
+@media (max-width: 769px){
+  .AddProductCard{
+    & h2{
+      font-size: 1rem;
+    }
+  }
+  .input__container{
+    & input{
+      height: 40px;
+    }
+  }
 }
