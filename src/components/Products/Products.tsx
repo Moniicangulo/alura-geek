@@ -3,7 +3,7 @@ import { ProductCard } from "../ProductCard/ProductCard.tsx";
 import "./Products.css";
 
 interface Product {
-  id: number;
+  id: string;
   name: string;
   price: string;
   imagen: string;
@@ -12,8 +12,8 @@ interface Product {
 export const Product = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
-  useEffect(() => {
-    fetch("http://localhost:3000/products")
+   useEffect(() => {
+   fetch("http://localhost:3000/products")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -30,6 +30,22 @@ export const Product = () => {
       });
   }, []);
 
+  const handleDelete = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:3000/products/${id}`, {
+        method: 'DELETE',
+      });
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      // Actualizar la lista de productos después de la eliminación
+      setProducts(products.filter(product => product.id !== id));
+    } catch (error) {
+      console.error('Error deleting product:', error);
+    }
+  };
+
+
   return (
     <div className="products__container">
       <h2>Mis productos:</h2>
@@ -37,10 +53,11 @@ export const Product = () => {
         {products.length > 0 ? (
           products.map((product) => (
             <ProductCard
-              key={product.id}
+              id={product.id}
               img={product.imagen}
-              productName={product.name}
+              name={product.name}
               price={product.price}
+              onDelete={handleDelete}
             />
           ))
         ) : (
